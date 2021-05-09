@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "smod:items/marisad"
+    "layer0": "smod:items/marisad_128"
   }
 }

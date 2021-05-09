@@ -1,9 +1,9 @@
-package org.sprojects.mod;
+package org.sprojects.smod;
 
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import org.sprojects.mod.items.Marisad;
+import org.sprojects.smod.items.Marisad;
 
 public class ModItems {
     @GameRegistry.ObjectHolder("smod:marisad")

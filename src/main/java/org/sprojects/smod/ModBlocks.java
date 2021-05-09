@@ -1,7 +1,7 @@
-package org.sprojects.mod;
+package org.sprojects.smod;
 
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import org.sprojects.mod.blocks.MarisadBlock;
+import org.sprojects.smod.blocks.MarisadBlock;
 
 public class ModBlocks {
     @GameRegistry.ObjectHolder("smod:marisadblock")

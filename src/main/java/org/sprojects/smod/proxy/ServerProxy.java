@@ -1,4 +1,4 @@
-package org.sprojects.mod.proxy;
+package org.sprojects.smod.proxy;
 
 public class ServerProxy extends CommonProxy {
 }

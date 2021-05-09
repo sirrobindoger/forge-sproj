@@ -1,4 +1,4 @@
-package org.sprojects.mod.proxy;
+package org.sprojects.smod.proxy;
 
 
 import net.minecraft.block.Block;
@@ -10,9 +10,9 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import org.sprojects.mod.ModBlocks;
-import org.sprojects.mod.blocks.*;
-import org.sprojects.mod.items.Marisad;
+import org.sprojects.smod.ModBlocks;
+import org.sprojects.smod.blocks.*;
+import org.sprojects.smod.items.Marisad;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {

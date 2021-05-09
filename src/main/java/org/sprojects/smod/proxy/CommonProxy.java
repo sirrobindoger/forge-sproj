@@ -28,11 +28,13 @@ public class CommonProxy {
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().register(new MarisadBlock());
+        event.getRegistry().register(new FumoBlock());
     }
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new Marisad());
         event.getRegistry().register(new ItemBlock(ModBlocks.marisadBlock).setRegistryName(ModBlocks.marisadBlock.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.fumoBlock).setRegistryName(ModBlocks.fumoBlock.getRegistryName()));
     }
 }
